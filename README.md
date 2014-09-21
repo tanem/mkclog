@@ -4,7 +4,7 @@
 
 Generate a changelog from Git commit data.
 
-```sh
+```
   Usage: mkclog [options]
 
   Options:
@@ -31,7 +31,7 @@ $ mkclog -t v1.0.1
 
 Outputs something like:
 
-```sh
+```
 ## v1.0.1 / 2014-09-21
 
  * Add foo.txt
