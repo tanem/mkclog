@@ -11,8 +11,10 @@ Generate a changelog from Git commit data.
 
     -h, --help           output usage information
     -V, --version        output the version number
-    -t, --tag [tag]      add a tag entry for commits since the previous tag; if unspecified, will only use previous tags
-    -o, --output [file]  write the output to this file; if unspecified, will print to stdout
+    -t, --tag [tag]      add a tag entry for commits since the previous tag;
+                         if unspecified, will only use previous tags
+    -o, --output [file]  write the output to this file;
+                         if unspecified, will print to stdout
 ```
 
 ## Installation

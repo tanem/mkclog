@@ -5,11 +5,19 @@ var fs = require('fs');
 var mkclog = require('..');
 
 program
-  .version('1.1.1')
-  .option('-t, --tag [tag]', 'add a tag entry for commits since the previous tag; if unspecified, will only use previous tags')
-  .option('-o, --output [file]', 'write the output to this file; if unspecified, will print to stdout')
+  .version('1.1.2')
+  .option('-t, --tag [tag]', 'add a tag entry for commits since the previous tag;\n' +
+    lpad('if unspecified, will only use previous tags', 21))
+  .option('-o, --output [file]', 'write the output to this file;\n' +
+    lpad('if unspecified, will print to stdout', 21))
   .parse(process.argv);
 
 if (program.tag) mkclog.setTag(program.tag);
 if (program.output) mkclog.pipe(fs.createWriteStream(program.output));
 else mkclog.pipe(process.stdout);
+
+function lpad(str, num) {
+  var pad = '';
+  while (num--) pad += ' ';
+  return pad + str;
+}
