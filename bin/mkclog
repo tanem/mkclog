@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var fs = require('fs');
+var mkclog = require('..');
+
+program
+  .version('1.0.0')
+  .option('-o, --output [file]', 'write the output to this file; if unspecified, will print to stdout')
+  .parse(process.argv);
+
+if (program.output) mkclog.pipe(fs.createWriteStream(program.output));
+else mkclog.pipe(process.stdout);

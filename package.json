@@ -1,0 +1,28 @@
+{
+  "name": "mkclog",
+  "version": "1.0.0",
+  "description": "Generate a changelog from Git commit data.",
+  "main": "index.js",
+  "bin": {
+    "mkclog": "./bin/mkclog"
+  },
+  "dependencies": {
+    "commander": "^2.3.0",
+    "execSync": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanem/mkclog.git"
+  },
+  "homepage": "https://github.com/tanem/mkclog",
+  "keywords": [
+    "changelog",
+    "generator",
+    "git"
+  ],
+  "author": {
+    "name": "Tane Morgan",
+    "url": "http://github.com/tanem"
+  },
+  "license": "MIT"
+}
