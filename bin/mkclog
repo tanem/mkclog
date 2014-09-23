@@ -6,7 +6,7 @@ var mkclog = require('..');
 var streamConcat = require('../lib/stream-concat');
 
 program
-  .version('2.0.1')
+  .version('2.0.2')
   .option('-a, --all', 'Generate entire history, including commits since the previous tag.')
   .option('-t, --tag [tag]', 'Tag to use for commits since the previous tag.')
   .option('-o, --output [file]', 'Write the output to this file.\n' +

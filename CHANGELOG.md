@@ -1,3 +1,7 @@
+## v2.0.2 / 2014-09-23
+
+ * Add changelog
+
 ## v2.0.1 / 2014-09-23
 
  * Add preferGlobal flag
