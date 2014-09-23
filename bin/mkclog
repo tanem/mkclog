@@ -3,18 +3,49 @@
 var program = require('commander');
 var fs = require('fs');
 var mkclog = require('..');
+var streamConcat = require('../lib/stream-concat');
 
 program
-  .version('1.1.2')
-  .option('-t, --tag [tag]', 'add a tag entry for commits since the previous tag;\n' +
-    lpad('if unspecified, will only use previous tags', 21))
-  .option('-o, --output [file]', 'write the output to this file;\n' +
-    lpad('if unspecified, will print to stdout', 21))
-  .parse(process.argv);
+  .version('2.0.0')
+  .option('-a, --all', 'Generate entire history, including commits since the previous tag.')
+  .option('-t, --tag [tag]', 'Tag to use for commits since the previous tag.')
+  .option('-o, --output [file]', 'Write the output to this file.\n' +
+    lpad('If the file exists and the -a option is not used, the output will be prepended to the file.\n', 21) +
+    lpad('If the file exists and the -a option is used, the output will overwrite the file.\n', 21) +
+    lpad('If this option is unspecified, the output will print to stdout.', 21));
 
+program.on('--help', function(){
+  console.log('  Examples:');
+  console.log('');
+  console.log('    $ mkclog -a -t v1.0.0');
+  console.log('    $ mkclog -t v1.0.0 -o history.md ');
+  console.log('');
+});
+
+program.parse(process.argv);
+
+if (program.all) mkclog.setAll(program.all);
 if (program.tag) mkclog.setTag(program.tag);
-if (program.output) mkclog.pipe(fs.createWriteStream(program.output));
-else mkclog.pipe(process.stdout);
+if (program.output) {
+  var sc = streamConcat();
+  var writeOutput = function(){
+    sc.pipe(fs.createWriteStream(program.output));
+  };
+  sc.write(mkclog);
+
+  if (program.all) {
+    writeOutput();
+  } else {
+    var rs = fs.createReadStream(program.output);
+    rs.on('error', writeOutput);
+    rs.on('open', function(){
+      sc.write(rs);
+      writeOutput();
+    });
+  }
+} else {
+  mkclog.pipe(process.stdout);
+}
 
 function lpad(str, num) {
   var pad = '';

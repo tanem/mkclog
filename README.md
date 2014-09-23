@@ -11,10 +11,12 @@ Generate a changelog from Git commit data.
 
     -h, --help           output usage information
     -V, --version        output the version number
-    -t, --tag [tag]      add a tag entry for commits since the previous tag;
-                         if unspecified, will only use previous tags
-    -o, --output [file]  write the output to this file;
-                         if unspecified, will print to stdout
+    -a, --all            Generate entire history, including commits since the previous tag.
+    -t, --tag [tag]      Tag to use for commits since the previous tag.
+    -o, --output [file]  Write the output to this file.
+                         If the file exists and the -a option is not used, the output will be prepended to the file.
+                         If the file exists and the -a option is used, the output will overwrite the file.
+                         If this option is unspecified, the output will print to stdout.
 ```
 
 ## Installation
