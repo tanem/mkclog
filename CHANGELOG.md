@@ -1,3 +1,7 @@
+## v2.0.3 / 2014-09-23
+
+ * Update example
+
 ## v2.0.2 / 2014-09-23
 
  * Add changelog
