@@ -30,10 +30,10 @@ $ npm install -g mkclog
 Run from within a Git repo:
 
 ```sh
-$ mkclog -t v1.0.1
+$ mkclog -a -t v1.0.1
 ```
 
-Outputs something like:
+Might output something like:
 
 ```
 ## v1.0.1 / 2014-09-21
