@@ -24,5 +24,6 @@
     "name": "Tane Morgan",
     "url": "http://github.com/tanem"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "preferGlobal": true
 }
