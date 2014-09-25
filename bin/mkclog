@@ -2,8 +2,9 @@
 
 var program = require('commander');
 var fs = require('fs');
-var mkclog = require('..');
-var streamConcat = require('../lib/stream-concat');
+var mkclog = require('..')();
+var streamConcat = require('../lib/stream-concat')();
+var lpad = require('../lib/util').lpad;
 
 program
   .version('2.0.3')
@@ -27,11 +28,10 @@ program.parse(process.argv);
 if (program.all) mkclog.setAll(program.all);
 if (program.tag) mkclog.setTag(program.tag);
 if (program.output) {
-  var sc = streamConcat();
   var writeOutput = function(){
-    sc.pipe(fs.createWriteStream(program.output));
+    streamConcat.pipe(fs.createWriteStream(program.output));
   };
-  sc.write(mkclog);
+  streamConcat.write(mkclog);
 
   if (program.all) {
     writeOutput();
@@ -39,16 +39,10 @@ if (program.output) {
     var rs = fs.createReadStream(program.output);
     rs.on('error', writeOutput);
     rs.on('open', function(){
-      sc.write(rs);
+      streamConcat.write(rs);
       writeOutput();
     });
   }
 } else {
   mkclog.pipe(process.stdout);
-}
-
-function lpad(str, num) {
-  var pad = '';
-  while (num--) pad += ' ';
-  return pad + str;
 }
