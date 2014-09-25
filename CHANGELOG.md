@@ -1,3 +1,8 @@
+## v2.0.4 / 2014-09-25
+
+ * Meddling with module internals
+ * Move utils stuff to a utils module
+
 ## v2.0.3 / 2014-09-23
 
  * Update example
