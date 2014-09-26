@@ -7,7 +7,7 @@ var streamConcat = require('../lib/stream-concat')();
 var lpad = require('../lib/util').lpad;
 
 program
-  .version('2.0.5')
+  .version('2.0.6')
   .option('-a, --all', 'Generate entire history, including commits since the previous tag.')
   .option('-t, --tag [tag]', 'Tag to use for commits since the previous tag.')
   .option('-o, --output [file]', 'Write the output to this file.\n' +

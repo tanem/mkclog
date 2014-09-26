@@ -1,3 +1,7 @@
+## v2.0.6 / 2014-09-26
+
+ * Tidy up README
+
 ## v2.0.5 / 2014-09-26
 
  * Expand README examples
