@@ -1,3 +1,7 @@
+## v2.0.5 / 2014-09-26
+
+ * Expand README examples
+
 ## v2.0.4 / 2014-09-25
 
  * Meddling with module internals
