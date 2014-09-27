@@ -1,3 +1,8 @@
+## v2.0.7 / 2014-09-27
+
+ * Update project description
+ * Read version from package.json
+
 ## v2.0.6 / 2014-09-26
 
  * Tidy up README
