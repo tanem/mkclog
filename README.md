@@ -2,7 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/mkclog.svg)](http://badge.fury.io/js/mkclog)
 
-Generate a changelog based on Git commit data from the command-line.
+Generate a Git changelog from the command-line.
 
 ```
 Usage: mkclog [options]
