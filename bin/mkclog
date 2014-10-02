@@ -7,7 +7,7 @@ var streamConcat = require('../lib/stream-concat')();
 var lpad = require('../lib/util').lpad;
 var version = require('../package').version;
 var path = require('path');
-var targetPackageJSON = path.join(process.cwd(), 'package.json');
+var targetPackageJSON = require(path.join(process.cwd(), 'package.json'));
 
 program
   .version(version)
