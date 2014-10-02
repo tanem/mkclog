@@ -1,3 +1,11 @@
+## v2.1.0 / 2014-10-02
+
+ * ([b013cd0](https://github.com/tanem/mkclog/commit/b013cd00718a97d16bb81cd899a3522ef9da7027)) Add url information to README
+ * ([20684e1](https://github.com/tanem/mkclog/commit/20684e11031654f6d5853253b80f16a9bf9bffd9)) Rename clashing option
+ * ([0662349](https://github.com/tanem/mkclog/commit/06623492e8d213749632d54697e5e2e2fb18b8d9)) Regenerate changelog to include commit links
+ * ([c4022fc](https://github.com/tanem/mkclog/commit/c4022fcc3a9e1ea36ce408e40689fc49a41c7599)) Fix target package.json require
+ * ([a908f2e](https://github.com/tanem/mkclog/commit/a908f2ea0fd3023b981759c8d8d7cb3bd570e971)) Add commit links
+
 ## v2.0.7 / 2014-09-27
 
  * ([990e3bd](https://github.com/tanem/mkclog/commit/990e3bd9c9c63fc4c8ae5dc8663b67005bbeaabd)) Update project description
