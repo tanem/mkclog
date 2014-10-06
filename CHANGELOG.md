@@ -1,3 +1,7 @@
+## v2.1.2 / 2014-10-07
+
+ * ([371daf3](https://github.com/tanem/mkclog/commit/371daf35fb9c9571881e9265e884f8f7c82115c8)) Generate history correctly when no tags are present (fixes #2)
+
 ## v2.1.1 / 2014-10-07
 
  * ([05f58dd](https://github.com/tanem/mkclog/commit/05f58dd00bf69ea73d2cd92995d8305750ef254c)) Display a nicer message when no commits are found (fixes #1)
