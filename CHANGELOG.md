@@ -1,3 +1,7 @@
+## v2.1.1 / 2014-10-07
+
+ * ([05f58dd](https://github.com/tanem/mkclog/commit/05f58dd00bf69ea73d2cd92995d8305750ef254c)) Display a nicer message when no commits are found (fixes #1)
+
 ## v2.1.0 / 2014-10-02
 
  * ([b013cd0](https://github.com/tanem/mkclog/commit/b013cd00718a97d16bb81cd899a3522ef9da7027)) Add url information to README
