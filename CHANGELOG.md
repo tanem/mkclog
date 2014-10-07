@@ -1,3 +1,7 @@
+## v2.2.1 / 2014-10-07
+
+ * ([03ca9bb](https://github.com/tanem/mkclog/commit/03ca9bb19d20a6381b3cdf20eaa50e6ccad2cb83)) Regenerate CHANGELOG with issue links
+
 ## v2.2.0 / 2014-10-07
 
  * ([21f3d6f](https://github.com/tanem/mkclog/commit/21f3d6fcb231f8f8dbc848b84fed602a9f94f8c3)) Add issue links (fixes [#3](https://github.com/tanem/mkclog/issues/3))
