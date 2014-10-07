@@ -1,3 +1,7 @@
+## v2.2.0 / 2014-10-07
+
+ * ([d0107a3](https://github.com/tanem/mkclog/commit/d0107a3238ca9becdaed52821dcd1e542c6c8209)) Add issue links
+
 ## v2.1.2 / 2014-10-07
 
  * ([371daf3](https://github.com/tanem/mkclog/commit/371daf35fb9c9571881e9265e884f8f7c82115c8)) Generate history correctly when no tags are present (fixes #2)
