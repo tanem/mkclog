@@ -1,14 +1,14 @@
 ## v2.2.0 / 2014-10-07
 
- * ([d0107a3](https://github.com/tanem/mkclog/commit/d0107a3238ca9becdaed52821dcd1e542c6c8209)) Add issue links
+ * ([21f3d6f](https://github.com/tanem/mkclog/commit/21f3d6fcb231f8f8dbc848b84fed602a9f94f8c3)) Add issue links (fixes [#3](https://github.com/tanem/mkclog/issues/3))
 
 ## v2.1.2 / 2014-10-07
 
- * ([371daf3](https://github.com/tanem/mkclog/commit/371daf35fb9c9571881e9265e884f8f7c82115c8)) Generate history correctly when no tags are present (fixes #2)
+ * ([371daf3](https://github.com/tanem/mkclog/commit/371daf35fb9c9571881e9265e884f8f7c82115c8)) Generate history correctly when no tags are present (fixes [#2](https://github.com/tanem/mkclog/issues/2))
 
 ## v2.1.1 / 2014-10-07
 
- * ([05f58dd](https://github.com/tanem/mkclog/commit/05f58dd00bf69ea73d2cd92995d8305750ef254c)) Display a nicer message when no commits are found (fixes #1)
+ * ([05f58dd](https://github.com/tanem/mkclog/commit/05f58dd00bf69ea73d2cd92995d8305750ef254c)) Display a nicer message when no commits are found (fixes [#1](https://github.com/tanem/mkclog/issues/1))
 
 ## v2.1.0 / 2014-10-02
 
@@ -67,3 +67,4 @@
 ## v1.0.0 / 2014-09-21
 
  * ([7aa9784](https://github.com/tanem/mkclog/commit/7aa9784fad0828bf2564cac68bacefa80a98feef)) Initialised
+
