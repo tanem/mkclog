@@ -74,7 +74,6 @@ $ cat changelog.md
 ## v1.0.0 / 2014-09-21
 
  * ([4567890](http://foo/commit/456789012)) Add foo.txt
-
 ```
 
 The entire history can be generated, along with an entry for the latest commits:
@@ -93,7 +92,6 @@ $ mkclog -a -t v1.0.2 -u http://foo
 ## v1.0.0 / 2014-09-21
 
  * ([4567890](http://foo/commit/456789012)) Add foo.txt
-
 ```
 
 We can also output the entire history to a file. Note that you may want to edit the resulting content since all commits will be listed by default. Also note that any existing file of the same name will be overwritten:
@@ -113,7 +111,6 @@ $ cat changelog.md
 ## v1.0.0 / 2014-09-21
 
  * ([4567890](http://foo/commit/456789012)) Add foo.txt
-
 ```
 
 Issue links will also be added where appropriate. For example, `#1` will be turned into a link to issue 1:
@@ -123,5 +120,4 @@ $ mkclog -t v1.0.3 -u http://foo
 ## v1.0.3 / 2014-09-23
 
  * ([0123456](http://foo/commit/012345678)) Update bar.txt (fixes [#1](http://foo/issues/1))
-
 ```
