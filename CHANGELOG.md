@@ -1,3 +1,8 @@
+## v2.2.3 / 2014-10-10
+
+ * ([85997aa](https://github.com/tanem/mkclog/commit/85997aa761e624025915875040736495964f1fdd)) Little README tidy up
+ * ([f34fdad](https://github.com/tanem/mkclog/commit/f34fdadd5356498571c0e5f5f2e53546c3fa41db)) Add commit and issue link examples to README (fixes [#5](https://github.com/tanem/mkclog/issues/5))
+
 ## v2.2.2 / 2014-10-08
 
  * ([bf7c792](https://github.com/tanem/mkclog/commit/bf7c792725364b6c0887905952d179046ee9cf4d)) Create issue links globally (fixes [#4](https://github.com/tanem/mkclog/issues/4))

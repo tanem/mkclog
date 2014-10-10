@@ -1,6 +1,6 @@
 {
   "name": "mkclog",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Generate a Git changelog from the command-line.",
   "main": "index.js",
   "bin": {
