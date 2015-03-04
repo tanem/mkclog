@@ -1,3 +1,7 @@
+## v2.2.4 / 2015-03-04
+
+ * ([083f7a2](https://github.com/tanem/mkclog/commit/083f7a2c64e8a37ee198017deabccd923585aad1)) Use Node 0.12 execSync
+
 ## v2.2.3 / 2014-10-10
 
  * ([85997aa](https://github.com/tanem/mkclog/commit/85997aa761e624025915875040736495964f1fdd)) Little README tidy up
@@ -80,4 +84,3 @@
 ## v1.0.0 / 2014-09-21
 
  * ([7aa9784](https://github.com/tanem/mkclog/commit/7aa9784fad0828bf2564cac68bacefa80a98feef)) Initialised
-
