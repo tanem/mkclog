@@ -3,12 +3,14 @@
   "version": "2.2.3",
   "description": "Generate a Git changelog from the command-line.",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.12"
+  },
   "bin": {
     "mkclog": "./bin/mkclog"
   },
   "dependencies": {
-    "commander": "^2.3.0",
-    "execSync": "^1.0.2"
+    "commander": "^2.3.0"
   },
   "repository": {
     "type": "git",
