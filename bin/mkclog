@@ -48,8 +48,7 @@ if (program.output) {
     var rs = fs.createReadStream(program.output);
     rs.on('error', writeOutput);
     rs.on('open', function(){
-      streamConcat.write(rs);
-      writeOutput();
+      streamConcat.write(rs, writeOutput);
     });
   }
 } else {
