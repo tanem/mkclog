@@ -1,3 +1,8 @@
+## v2.2.5 / 2015-03-06
+
+ * ([88df998](https://github.com/tanem/mkclog/commit/88df99838bf58645fb2f68d2e429ce52610a155b)) Fix stream concat glitch (fixes [#7](https://github.com/tanem/mkclog/issues/7))
+ * ([69f401e](https://github.com/tanem/mkclog/commit/69f401e8a852b1bcbfaddbef328cff83cc3bad30)) Remove log statement
+
 ## v2.2.4 / 2015-03-04
 
  * ([083f7a2](https://github.com/tanem/mkclog/commit/083f7a2c64e8a37ee198017deabccd923585aad1)) Use Node 0.12 execSync
