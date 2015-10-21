@@ -1,3 +1,7 @@
+## 2.3.0 / 2015-10-21
+
+ * ([5d9a950](https://github.com/tanem/mkclog/commit/5d9a950ed0ec442dc2dc992e181869802909fb9e)) Add ability to specify semver string (fixes [#6](https://github.com/tanem/mkclog/issues/6))
+
 ## v2.2.5 / 2015-03-06
 
  * ([88df998](https://github.com/tanem/mkclog/commit/88df99838bf58645fb2f68d2e429ce52610a155b)) Fix stream concat glitch (fixes [#7](https://github.com/tanem/mkclog/issues/7))
