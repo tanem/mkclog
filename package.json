@@ -10,7 +10,8 @@
     "mkclog": "./bin/mkclog"
   },
   "dependencies": {
-    "commander": "^2.3.0"
+    "commander": "^2.3.0",
+    "semver": "^5.0.3"
   },
   "repository": {
     "type": "git",
