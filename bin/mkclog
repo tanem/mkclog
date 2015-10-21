@@ -12,7 +12,7 @@ var targetPackageJSON = require(path.join(process.cwd(), 'package.json'));
 program
   .version(version)
   .option('-a, --all', 'Generate entire history, including commits since the previous tag.')
-  .option('-t, --tag [tag]', 'Tag to use for commits since the previous tag.')
+  .option('-t, --tag [tag]', 'Tag to use for commits since the previous tag. Valid semver names can also be used.')
   .option('-u, --url [url]', 'The url to the project homepage. This will be used when linking to commits.\n' +
     lpad('If this option is unspecified, the package.json "homepage" value will be used.\n', 21) +
     lpad('If this option is unspecified and the package.json "homepage" property does not exist, no commit links will be added.', 21))
@@ -27,6 +27,7 @@ program.on('--help', function(){
   console.log('    $ mkclog -a -t v1.0.0');
   console.log('    $ mkclog -t v1.0.0 -o history.md ');
   console.log('    $ mkclog -t v1.0.0 -u http://foo.com -o history.md ');
+  console.log('    $ mkclog -t minor -o history.md');
   console.log('');
 });
 
