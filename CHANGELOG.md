@@ -1,3 +1,7 @@
+## 2.3.1 / 2015-11-02
+
+ * ([53e108e](https://github.com/tanem/mkclog/commit/53e108ef57b57a22c50ef384c2b23f441599859e)) Add .editorconfig (fixes [#8](https://github.com/tanem/mkclog/issues/8))
+
 ## 2.3.0 / 2015-10-21
 
  * ([5d9a950](https://github.com/tanem/mkclog/commit/5d9a950ed0ec442dc2dc992e181869802909fb9e)) Add ability to specify semver string (fixes [#6](https://github.com/tanem/mkclog/issues/6))
