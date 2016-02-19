@@ -1,6 +1,8 @@
 # mkclog
 
-[![NPM version](https://badge.fury.io/js/mkclog.svg)](http://badge.fury.io/js/mkclog)
+[![npm version](https://img.shields.io/npm/v/mkclog.svg?style=flat-square)](https://www.npmjs.com/package/mkclog)
+[![npm downloads](https://img.shields.io/npm/dm/mkclog.svg?style=flat-square)](https://www.npmjs.com/package/mkclog)
+[![dependency status](https://david-dm.org/tanem/mkclog.svg?style=flat-square)](https://david-dm.org/tanem/mkclog)
 
 Generate a Git changelog from the command-line.
 
