@@ -1,5 +1,7 @@
 # mkclog
 
+> **Unmaintained.** This project is no longer maintained and the repository is archived. The npm package is deprecated.
+
 [![npm version](https://img.shields.io/npm/v/mkclog.svg?style=flat-square)](https://www.npmjs.com/package/mkclog)
 [![npm downloads](https://img.shields.io/npm/dm/mkclog.svg?style=flat-square)](https://www.npmjs.com/package/mkclog)
 [![dependency status](https://david-dm.org/tanem/mkclog.svg?style=flat-square)](https://david-dm.org/tanem/mkclog)
